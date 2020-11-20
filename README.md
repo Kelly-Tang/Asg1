@@ -1,4 +1,5 @@
-Project Name:
+Project Name: Kelly's Portfolio
+The overview of this website it
 Design Process: 
 This website is to ......
 This is a small part of myself, 
