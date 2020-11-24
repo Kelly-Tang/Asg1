@@ -3,4 +3,6 @@ The overview of this website it, this project or website is for the recruiters, 
 Design Process: 
 The purpose of me making this website is because, for the future, after graduating, I will need to find work. This website is made for the companies. When they see my website online, they may be interested and ask to have an interview. And if Covid-19 continues, I am able to send my personal website to the interviewer, to take a look at my website, the artworks, or the games I had done. I have made different kinds of shops logo, fictional shops. 
 This is the wireframe. https://xd.adobe.com/view/04144341-2433-4dec-87e2-9d04c5319bbc-5147/ 
-After getting the feedbacks from lectures and friends, I added more things, to have a place to put in my working experience, how I can better introduce myself and what else more I can add to , and my own motto.
+After getting the feedbacks from lectures and friends, I added more things, to have a place to put in my working experience, how I can better introduce myself and what else more I can add to show different side of me, and my own motto.
+Features to implement in the future:
+To have a extra container, to put for the games that I had done.
