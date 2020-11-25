@@ -172,13 +172,13 @@
           <input type="text" id="fname" name="firstname" placeholder="EG. Kat">
 
           <label for="lname">Last Name:</label>
-          <input type="text" id="lname" name="lastname" placeholder="EG. Jones">
+          <input type="text" id="lname" name="lastname" placeholder="EG. Jones"required>
 
           <label for="email">Email:</label>
-          <input type="email" id="email" name="email" placeholder="EG. mail@example.com">
+          <input type="email" id="email" name="email" placeholder="EG. mail@example.com"required>
 
           <label for="phone">Phone number:</label><br>
-          <input type="tel" id="phone" name="phone" placeholder="EG. 123 456 789 0" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br>
+          <input type="tel" id="phone" name="phone" placeholder="EG. 12345678901" pattern="[0-9]{3}[0-9]{8}" required><br>
 
           <label for="subject">Message:</label>
           <textarea id="subject" name="subject" placeholder="Type your message here" style="height:200px"></textarea>
