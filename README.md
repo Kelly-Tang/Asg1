@@ -20,6 +20,7 @@ To have a extra container, to put for the games that I had done.
     2. When you submit without entering the last name, it will ask to fill this area. Unable to submit.
     3. When you submit without entering your email, it will ask to fill this area. Unable to submit.
     4. When you type the phone numbers, with spacing or without writing enough numbers, it will asked to match the format. Unable to submit.
+
 On different screen sizes, when scaled to phone size, the words will not shrink, it will wrap to more lines.
 ## Credits
 ### Media
