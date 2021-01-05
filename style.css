@@ -1,0 +1,331 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: auto;
+  font-family: 'Oswald', sans-serif;
+  background-image: linear-gradient(to bottom, #ddc3d0,#dbdaea,#dbfcff);
+}
+.device-width{
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.navi{
+  position: relative;
+  width: 100%;
+  padding: 15px 0;
+  background-color: white;
+}
+.navi .name{
+  font-size: 35px;
+  position: relative;
+}
+.navi ul li{
+  display: inline-block;
+  margin: 0px 20px;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+.navi ul li a{
+  text-decoration: none;
+  position: relative;
+  font-size: 20px;
+  margin: 25px; 
+  color: darkviolet;
+  transition: color 0.3s ease; 
+  display: inline-block;
+  text-align: end;
+}
+.navi a:hover{
+  color: lightslategray
+}
+.home{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.motto{
+  text-align: center;
+}
+.motto-img{
+  width: 100%;
+  opacity: 0.5;
+  height: auto;
+  padding-top: 100px;
+  text-align: center;
+}
+.motto h1{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  font-size: 75px;
+  color: rgb(148, 0, 211);
+  transform: translate(-50%,-50%);
+}
+.motto p{
+  color: rgb(255, 145, 0);
+  font-size: 60px;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.motto h2{
+  font-size: 70px;
+  color: rgb(0, 204, 211);
+  position: absolute;
+  top: 140%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+.content{
+  height: 560px;
+  position: relative;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.split{
+  flex-basis: 76%;
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+  margin: 0%;
+}
+.split img{
+  max-width: 200%;
+  height: auto;
+}
+@media screen and (max-width:576px){
+  .split{
+    flex:1 100%;
+    flex-grow: inherit;
+  }
+  .flex-item {
+    flex: 1 46%;
+    flex-grow: inherit;
+  }
+}
+.split h1{
+  font-size: 70px;
+  position: relative;
+}
+.split p{
+  font-size: 24px;
+  position: relative;
+}
+.skill h2{
+  font-family: 'Titillium Web', sans-serif;
+  position: relative;
+  color:darksalmon;
+  font-size: 40px;
+  margin: 17px;
+  padding: 13px;
+}
+.home1{
+  width: 80%;
+  height: 480px;
+  background-color: rgba(255, 255, 255, 0.49);
+  border-radius: 20px;
+  box-shadow: 2px 2px 12px rgb(255, 255, 255);
+  display: flex;
+  margin: -7% auto 20px auto;
+  position: relative;  
+  justify-content: space-evenly;
+  align-items: center;
+}
+.skills h3{
+  font-family: 'Titillium Web', sans-serif;
+  position: relative;
+  color: darkseagreen;
+  font-size: 18px;
+  margin: 27px;
+  padding: 5px;
+  line-height: 40px
+}
+.skills2 h3{
+  font-family: 'Titillium Web', sans-serif;
+  position: relative;
+  color: rgba(88, 105, 151, 0.76);
+  font-size: 18px;
+  margin: 27px;
+  padding: 5px;
+  line-height: 40px
+}
+#AboutMe{
+  font-size: 60px;
+  color: cadetblue;
+  margin: 20px;
+  text-decoration: underline darkcyan;
+}
+.half{
+  flex-basis: 76%;
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+  margin: 0%;
+}
+@media screen and (max-width:576px){
+  .half{
+    flex:1 100%;
+    flex-grow: inherit;
+  }
+  .flex-item {
+    flex: 1 46%;
+    flex-grow: inherit;
+  }
+}
+.half p{
+  font-size: 24px;
+  position: relative;
+  float: left;
+}
+.image{
+  width:170px;
+  height:170px;
+  margin-right:15px;
+  float: right;
+}
+.box{
+  width: 65%;
+  height: 420px;
+  background-color: rgba(255, 255, 255, 0.49);
+  border-radius: 20px;
+  box-shadow: 2px 2px 12px rgb(255, 255, 255);
+  display: flex;
+  margin: 1% auto 20px auto;
+  position: relative;  
+  justify-content: space-evenly;
+  align-items: center;
+  float: left;
+}
+.work-ex h2{
+  font-family: 'Titillium Web', sans-serif;
+  position: relative;
+  color:darksalmon;
+  font-size: 40px;
+}
+.work-ex dl{
+  font-family: 'Titillium Web', sans-serif;
+  position: relative;
+  color: rgb(76, 0, 255);
+  font-size: 18px;
+  line-height: 40px;
+  text-align: left;
+}
+.extralinks{
+  position: relative;  
+  align-items: center;
+  margin: 20px;
+  font-size: 24px;
+}
+.extralinks1{
+  position: relative;  
+  align-items: center;
+  margin: 20px;
+  font-size: 24px;
+}
+#Work{
+  font-size: 60px;
+  color: cadetblue;
+  margin: 20px;
+  text-decoration: underline darkcyan;
+}
+.art {
+  display: flex;
+  width: 100%;
+  background-color:cornflowerblue;
+  flex-wrap: wrap;
+}
+.flex-item {
+  padding: 1%;
+  flex-grow: 1;
+  flex-basis: 15%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #D3D3D3;
+}
+.flex-img img {
+  max-width: 100%;
+  margin-top: auto; 
+}
+.thumb-img{
+  width: 850px;
+  height: 150px;
+  object-fit: cover;
+}
+.button {
+  background-color: lightgoldenrodyellow;
+  border: none;
+  color: rgb(0, 0, 0, 0.2);
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  font-family: 'Oswald', sans-serif;
+}
+#contact{
+  font-size: 60px;
+  color: cadetblue;
+  margin: 20px;
+  text-decoration: underline darkcyan;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgba(252, 190, 56, 0.795);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: 'Oswald', sans-serif;
+}
+input[type=submit] {
+  background-color:darkturquoise;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color:lightskyblue;
+  font-family: 'Oswald', sans-serif;
+}
+input[type=tel]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgba(252, 190, 56, 0.795);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: 'Oswald', sans-serif;
+}
+input[type=email]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgba(252, 190, 56, 0.795);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: 'Oswald', sans-serif;
+}
+.forms {
+  border-radius: 5px;
+  background-color:blanchedalmond;
+  padding: 20px;
+  font-family: 'Oswald', sans-serif;
+}
